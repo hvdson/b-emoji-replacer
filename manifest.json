@@ -10,6 +10,10 @@
     "default_popup": "popup.html",
     "default_title": "🅱️ replacer!"
   },
+  "content_scripts": [{
+    "js": ["content.js"],
+    "matches": ["https://*/*"]
+  }],
   "permissions": [
     "activeTab",
     "storage"
